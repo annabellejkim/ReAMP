@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650432000824",
+    "project_id": "a-m-p-athlete-hub-app-s3uvc9",
+    "storage_bucket": "a-m-p-athlete-hub-app-s3uvc9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650432000824:android:8b04fb1f6f0b4b65ebc7cd",
+        "android_client_info": {
+          "package_name": "com.mycompany.ampathletehubapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsp8JXJarFHZ_R50RCKSCTv4YIQJj1dKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

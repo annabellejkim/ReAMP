@@ -1,2 +1,7 @@
 # ReAMP
-Research-informed athlete recovery app aimed to improve recovery, identify patterns in behaviors, and optimize athlete readiness.
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
