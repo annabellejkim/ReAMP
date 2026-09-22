@@ -182,57 +182,62 @@ class _HealthSafetyWidgetState extends State<HealthSafetyWidget> {
                     padding:
                         EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 24.0, 16.0),
                     child: Container(
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Row(
-                            mainAxisSize: MainAxisSize.max,
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              FlutterFlowIconButton(
-                                borderRadius: 8.0,
-                                buttonSize: 40.0,
-                                fillColor: Colors.transparent,
-                                icon: Icon(
-                                  Icons.arrow_back_rounded,
-                                  color:
-                                      FlutterFlowTheme.of(context).primaryText,
-                                  size: 24.0,
+                      child: Padding(
+                        padding:
+                            EdgeInsetsDirectional.fromSTEB(0.0, 40.0, 0.0, 0.0),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.max,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Row(
+                              mainAxisSize: MainAxisSize.max,
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                FlutterFlowIconButton(
+                                  borderRadius: 8.0,
+                                  buttonSize: 40.0,
+                                  fillColor: Colors.transparent,
+                                  icon: Icon(
+                                    Icons.arrow_back_rounded,
+                                    color: FlutterFlowTheme.of(context)
+                                        .primaryText,
+                                    size: 24.0,
+                                  ),
+                                  onPressed: () async {
+                                    context.pushNamed(CheckInWidget.routeName);
+                                  },
                                 ),
-                                onPressed: () async {
-                                  context.pushNamed(CheckInWidget.routeName);
-                                },
-                              ),
-                              Text(
-                                'Health & Safety',
-                                style: FlutterFlowTheme.of(context)
-                                    .titleLarge
-                                    .override(
-                                      font: GoogleFonts.readexPro(
+                                Text(
+                                  'Health & Safety',
+                                  style: FlutterFlowTheme.of(context)
+                                      .titleLarge
+                                      .override(
+                                        font: GoogleFonts.readexPro(
+                                          fontWeight: FontWeight.bold,
+                                          fontStyle:
+                                              FlutterFlowTheme.of(context)
+                                                  .titleLarge
+                                                  .fontStyle,
+                                        ),
+                                        letterSpacing: 0.0,
                                         fontWeight: FontWeight.bold,
                                         fontStyle: FlutterFlowTheme.of(context)
                                             .titleLarge
                                             .fontStyle,
+                                        lineHeight: 1.4,
                                       ),
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
-                                          .titleLarge
-                                          .fontStyle,
-                                      lineHeight: 1.4,
-                                    ),
-                              ),
-                            ].divide(SizedBox(width: 16.0)),
-                          ),
-                          Icon(
-                            Icons.shield_rounded,
-                            color: Color(0x66105DFB),
-                            size: 24.0,
-                          ),
-                        ],
+                                ),
+                              ].divide(SizedBox(width: 16.0)),
+                            ),
+                            Icon(
+                              Icons.shield_rounded,
+                              color: Color(0x66105DFB),
+                              size: 24.0,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
