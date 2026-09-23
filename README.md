@@ -12,6 +12,8 @@ This research led to a **proximal-distal framework for understanding athlete rea
 
 Rather than leaving this research on a page, I wanted to build something that could help athletes understand their own recovery patterns and apply research-informed insights to their everyday lives.
 
+After experiencing repeated ankle injuries myself, I began wondering how my recovery habits affected my readiness to play. Working with younger athletes through my nonprofit showed me that not everyone has equal access to recovery resources, which sparked the idea for a free app that could help athletes better understand and improve their recovery.
+
 ## How ReAMP Works
 
 ### Daily Check-In
@@ -146,7 +148,3 @@ Athletes with concerns about pain, injury, illness, or other health conditions s
 **Annabelle Kim** is a student researcher, athlete, and founder of **Amplify My Potential (A.M.P.)**, a nonprofit focused on expanding access to research-informed athletic development for young athletes.
 
 ReAMP grew from the intersection of my interests in **athlete development, recovery research, neuroscience, and technology**.
-
-The project reflects a simple idea:
-
-> **Research should not just sit on a page. It should become something people can use.**
