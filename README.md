@@ -31,7 +31,7 @@ These responses form the foundation of the day's recovery analysis.
 
 ### Recovery Scores
 
-ReAMP generates four mini recovery scores:
+ReAMP quantifies your self-reported recovery markers into four mini recovery scores:
 
 - **Sleep Score**
 - **Mood Score**
@@ -89,10 +89,10 @@ The research is currently undergoing the publication review process.
 
 ReAMP was built using:
 
-- **FlutterFlow** — application interface and development
-- **Firebase** — backend infrastructure and data storage
-- **Dart** — custom functions and widgets
-- **iOS** — mobile application
+- **FlutterFlow**: application interface and development
+- **Firebase**: backend infrastructure and data storage
+- **Dart**: custom functions and widgets
+- **iOS**: mobile application
 
 I chose FlutterFlow primarily because of its easy Firebase integration and the ability to move efficiently between the application's interface and backend.
 
